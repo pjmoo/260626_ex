@@ -7,7 +7,7 @@ public class App {
         this.appService = appService;
     }
 
-    public void run() {
+    public void run() throws Exception {
         System.out.println("App.run");
         appService.run();
         System.out.println("App.run.complete");
